@@ -1,0 +1,3906 @@
+{
+  "provenance": [
+    {
+      "DeRegNet": {
+        "URL": "https://github.com/KohlbacherLab/deregnet",
+        "Release": "Gurobi 9.5.x Release"
+      }
+    }
+  ],
+  "type": "Network",
+  "contents": {
+    "uuid": "1c7afa0f-3fb3-4204-982f-73d000baf405",
+    "UUID": "1c7afa0f-3fb3-4204-982f-73d000baf405",
+    "name": "optimal_69a92ea6-7d1e-4cac-a65f-b8afa2380e97",
+    "organismCode": "hsa",
+    "numberOfNodes": 15,
+    "numberOfRelations": 15,
+    "numberOfReactions": 0,
+    "relationTypes": [
+      "STIMULATION"
+    ],
+    "networkMappingType": "SIGNALLING"
+  },
+  "wasAttributedTo": {
+    "name": "deregnet",
+    "type": "User"
+  },
+  "wasGeneratedBy": [
+    {
+      "name": "optimal.graphml",
+      "type": "persistFile",
+      "operation": "POST",
+      "endpoint": "/graphml",
+      "params": [
+        {
+          "parameter": "prefixName",
+          "value": "false"
+        },
+        {
+          "parameter": "suffixName",
+          "value": "false"
+        },
+        {
+          "parameter": "networkname",
+          "value": "optimal_69a92ea6-7d1e-4cac-a65f-b8afa2380e97"
+        },
+        {
+          "parameter": "files",
+          "value": "optimal.graphml"
+        },
+        {
+          "parameter": "UUID",
+          "value": "557185cb-4534-48f6-af3f-a8ca5aec9761"
+        },
+        {
+          "parameter": "user",
+          "value": "deregnet"
+        }
+      ]
+    }
+  ],
+  "wasDerivedFrom": [
+    {
+      "type": "Network",
+      "contents": {
+        "uuid": "557185cb-4534-48f6-af3f-a8ca5aec9761",
+        "UUID": "557185cb-4534-48f6-af3f-a8ca5aec9761",
+        "name": "DeRegNet_SIG_Base_KEGG_Cancer_Types_chapter4",
+        "organismCode": "hsa",
+        "numberOfNodes": 197,
+        "numberOfRelations": 277,
+        "numberOfReactions": 0,
+        "nodeTypes": [
+          "polypeptide chain"
+        ],
+        "relationTypes": [
+          "STIMULATION",
+          "INHIBITION",
+          "PROTEINCOMPLEXFORMATION"
+        ],
+        "networkMappingType": "SIGNALLING"
+      },
+      "wasAttributedTo": {
+        "name": "deregnet",
+        "type": "User"
+      },
+      "wasGeneratedBy": [
+        {
+          "name": "DeRegNet_Raw_Data_69a92ea6-7d1e-4cac-a65f-b8afa2380e97-filterNetwork->DeRegNet_SIG_Base_KEGG_Cancer_Types_chapter4",
+          "type": "filterNetwork",
+          "operation": "POST",
+          "endpoint": "/networks/346a14e7-44c8-45c1-ab4e-9ce48fd8e668/filter",
+          "params": [
+            {
+              "parameter": "prefixName",
+              "value": "false"
+            },
+            {
+              "parameter": "networkname",
+              "value": "DeRegNet_SIG_Base_KEGG_Cancer_Types_chapter4"
+            },
+            {
+              "parameter": "UUID",
+              "value": "346a14e7-44c8-45c1-ab4e-9ce48fd8e668"
+            },
+            {
+              "parameter": "user",
+              "value": "deregnet"
+            }
+          ],
+          "body": {
+            "nodeTypes": [
+              "polypeptide chain"
+            ],
+            "relationTypes": [
+              "STIMULATION",
+              "INHIBITION",
+              "PROTEINCOMPLEXFORMATION"
+            ],
+            "nodeSymbols": [
+              "SPI1",
+              "HHIP",
+              "ARAF",
+              "KEAP1",
+              "ELK1",
+              "CRKL",
+              "RASSF1",
+              "CREB3L1",
+              "AKT2",
+              "MYC",
+              "AKT3",
+              "TNFSF11",
+              "AKT1",
+              "SKP2",
+              "PRKCG",
+              "PRKCB",
+              "RUNX1",
+              "EREG",
+              "EML4",
+              "AR",
+              "TP53",
+              "ABCB1",
+              "CTBP2",
+              "PDGFB",
+              "TGFA",
+              "PIK3R3",
+              "KLK3",
+              "PIK3R2",
+              "PIK3R1",
+              "HIF1A",
+              "HMOX1",
+              "RALGDS",
+              "STAT5A",
+              "STAT5B",
+              "JUN",
+              "GSTM2",
+              "JAG1",
+              "JUP",
+              "REG4",
+              "FZD7",
+              "IGF2",
+              "FZD8",
+              "BRAF",
+              "IGF1",
+              "PTK2",
+              "GADD45G",
+              "GRB2",
+              "CALM1",
+              "CDKN1A",
+              "CDKN1B",
+              "GLI1",
+              "AREG",
+              "BBC3",
+              "SHH",
+              "MECOM",
+              "SUFU",
+              "RAC2",
+              "RAC1",
+              "JAK3",
+              "HRAS",
+              "JAK1",
+              "INSRR",
+              "GAB1",
+              "FOS",
+              "WNT9A",
+              "GAB2",
+              "DUSP6",
+              "DDB2",
+              "KIT",
+              "RAPGEF1",
+              "CKS2",
+              "RARA",
+              "PPARD",
+              "ARHGEF6",
+              "WNT8A",
+              "WNT8B",
+              "XIAP",
+              "PTGS2",
+              "EGFR",
+              "NRAS",
+              "PAK3",
+              "RUNX1T1",
+              "NQO1",
+              "CDKN2B",
+              "EGLN2",
+              "CDX2",
+              "STAT1",
+              "STAT3",
+              "VEGFA",
+              "HEYL",
+              "CAMK4",
+              "CTNNB1",
+              "FGF1",
+              "IGF1R",
+              "FGF5",
+              "CCND1",
+              "PIM1",
+              "EP300",
+              "PIM2",
+              "PDGFRB",
+              "PDGFRA",
+              "RALBP1",
+              "WNT5B",
+              "HGF",
+              "SMO",
+              "CCNE2",
+              "PGR",
+              "RAF1",
+              "SHC4",
+              "NOTCH3",
+              "SHC3",
+              "MAX",
+              "SHC1",
+              "TCF7",
+              "HSP90B1",
+              "PLD2",
+              "RAP1B",
+              "BCL2L11",
+              "ABL1",
+              "DVL2",
+              "FGF20",
+              "EIF4EBP1",
+              "PMAIP1",
+              "DVL3",
+              "WNT1",
+              "SMAD2",
+              "ZBTB17",
+              "TGFB1",
+              "PTCH1",
+              "PTCH2",
+              "ESR1",
+              "NFKB1",
+              "NFKB2",
+              "BMP2",
+              "CDK4",
+              "CDK2",
+              "MDM2",
+              "BCL2",
+              "FGFR2",
+              "FGFR1",
+              "NFE2L2",
+              "BCL2L1",
+              "ITGB1",
+              "GSK3B",
+              "FLT3",
+              "FLT4",
+              "SLC2A1",
+              "PIK3CD",
+              "PIK3CB",
+              "CASP3",
+              "POLK",
+              "CHUK",
+              "PDPK1",
+              "DCC",
+              "ITGA2",
+              "TRAF1",
+              "TGFBR1",
+              "TGFBR2",
+              "CCNA2",
+              "PIK3CA",
+              "BIRC5",
+              "SOS1",
+              "CDH17",
+              "SOS2",
+              "MET",
+              "CRK",
+              "CEBPA",
+              "LAMA5",
+              "RALB",
+              "BCL2A1",
+              "HDAC1",
+              "CEBPE",
+              "LEF1",
+              "CBL",
+              "LRP6",
+              "DLL4",
+              "CDC42",
+              "MAPK9",
+              "MUC2",
+              "ERBB2",
+              "MAPK1",
+              "BAK1",
+              "HES5",
+              "MAPK3",
+              "TCF7L2",
+              "TCF7L1",
+              "NOS2",
+              "TXNRD2",
+              "BAD",
+              "EGF",
+              "PTPN11",
+              "PML",
+              "MTOR",
+              "RPS6KB1",
+              "RPS6KB2",
+              "BAX",
+              "KRAS"
+            ],
+            "relationSymbols": [
+              "CHUK-STIMULATION->NFKB1",
+              "CREB3L1-INHIBITION->EP300",
+              "PMAIP1-INHIBITION->BCL2",
+              "FZD8-STIMULATION->DVL3",
+              "NFE2L2-STIMULATION->NQO1",
+              "RALGDS-STIMULATION->RALB",
+              "WNT8B-STIMULATION->LRP6",
+              "DVL3-INHIBITION->GSK3B",
+              "AR-proteincomplexformation->HSP90B1",
+              "PML-STIMULATION->MYC",
+              "GRB2-STIMULATION->GAB2",
+              "WNT8A-STIMULATION->LRP6",
+              "EGF-STIMULATION->ERBB2",
+              "ARHGEF6-STIMULATION->RAC2",
+              "IGF1R-STIMULATION->PIK3CA",
+              "CDK2-proteincomplexformation->CCNE2",
+              "CDX2-STIMULATION->CDH17",
+              "IGF1-STIMULATION->IGF1R",
+              "TGFBR2-proteincomplexformation->TGFBR1",
+              "MAX-STIMULATION->CDK4",
+              "WNT5B-STIMULATION->LRP6",
+              "DVL2-INHIBITION->GSK3B",
+              "LEF1-STIMULATION->MYC",
+              "FZD7-STIMULATION->DVL2",
+              "FZD7-STIMULATION->DVL3",
+              "HEYL-STIMULATION->CCND1",
+              "FGFR1-STIMULATION->SHC1",
+              "CBL-STIMULATION->PIK3R3",
+              "PDGFB-STIMULATION->PDGFRB",
+              "TP53-STIMULATION->DDB2",
+              "MET-STIMULATION->PIK3CA",
+              "PML-INHIBITION->SPI1",
+              "SOS2-STIMULATION->KRAS",
+              "GAB1-STIMULATION->GRB2",
+              "KIT-STIMULATION->PIK3R1",
+              "CDX2-INHIBITION->SHH",
+              "CDKN1B-INHIBITION->CDK2",
+              "GAB1-STIMULATION->PTPN11",
+              "STAT1-STIMULATION->VEGFA",
+              "JUN-STIMULATION->CCND1",
+              "HGF-STIMULATION->MET",
+              "NFE2L2-STIMULATION->TXNRD2",
+              "ITGB1-STIMULATION->PTK2",
+              "BAD-INHIBITION->BCL2",
+              "EGFR-STIMULATION->SHC3",
+              "NFKB1-STIMULATION->PTGS2",
+              "HIF1A-STIMULATION->PDGFB",
+              "NFKB1-STIMULATION->XIAP",
+              "ERBB2-STIMULATION->PIK3R1",
+              "ERBB2-STIMULATION->PIK3R2",
+              "CTNNB1-STIMULATION->TCF7L1",
+              "CTNNB1-STIMULATION->TCF7L2",
+              "HES5-STIMULATION->MYC",
+              "NOTCH3-STIMULATION->HEYL",
+              "EREG-STIMULATION->EGFR",
+              "ABL1-STIMULATION->GRB2",
+              "KRAS-STIMULATION->ARAF",
+              "EML4-STIMULATION->PIK3CA",
+              "RUNX1T1-INHIBITION->CEBPA",
+              "JUP-STIMULATION->PPARD",
+              "GLI1-STIMULATION->BMP2",
+              "ITGA2-proteincomplexformation->ITGB1",
+              "KIT-STIMULATION->STAT5B",
+              "FGF1-STIMULATION->FGFR1",
+              "NFKB1-STIMULATION->BCL2L1",
+              "LRP6-proteincomplexformation->FZD7",
+              "MAX-proteincomplexformation->MYC",
+              "FLT3-INHIBITION->SPI1",
+              "EGFR-STIMULATION->SHC1",
+              "PML-INHIBITION->CEBPE",
+              "CDX2-STIMULATION->MUC2",
+              "STAT5B-STIMULATION->PIM2",
+              "SHC1-STIMULATION->GRB2",
+              "STAT5B-STIMULATION->PIM1",
+              "PGR-STIMULATION->WNT1",
+              "CRK-STIMULATION->PIK3R3",
+              "PIK3CB-STIMULATION->AKT1",
+              "ITGB1-proteincomplexformation->ITGA2",
+              "ERBB2-STIMULATION->SHC1",
+              "NOTCH3-STIMULATION->ERBB2",
+              "CDX2-STIMULATION->ABCB1",
+              "FLT3-STIMULATION->STAT5B",
+              "KRAS-STIMULATION->BRAF",
+              "KIT-STIMULATION->SHC1",
+              "RALB-STIMULATION->RAC1",
+              "TGFA-STIMULATION->ERBB2",
+              "FLT3-STIMULATION->GRB2",
+              "AR-STIMULATION->KLK3",
+              "AKT3-INHIBITION->GSK3B",
+              "RAC2-STIMULATION->NFKB1",
+              "TCF7-STIMULATION->CCND1",
+              "IGF2-STIMULATION->IGF1R",
+              "ITGA2-STIMULATION->PTK2",
+              "INSRR-STIMULATION->GRB2",
+              "MYC-STIMULATION->CCND1",
+              "TCF7L1-STIMULATION->MYC",
+              "EGFR-STIMULATION->PIK3R1",
+              "MAPK1-STIMULATION->CCND1",
+              "PML-STIMULATION->RARA",
+              "ESR1-STIMULATION->MYC",
+              "ESR1-STIMULATION->CCND1",
+              "BCL2-INHIBITION->BAX",
+              "MTOR-INHIBITION->EIF4EBP1",
+              "SHC4-STIMULATION->GRB2",
+              "TGFBR1-proteincomplexformation->TGFBR2",
+              "JAG1-STIMULATION->NOTCH3",
+              "FLT3-INHIBITION->CEBPA",
+              "NFE2L2-STIMULATION->GSTM2",
+              "AREG-STIMULATION->EGFR",
+              "AKT1-INHIBITION->BAD",
+              "GLI1-STIMULATION->PTCH2",
+              "FZD7-proteincomplexformation->LRP6",
+              "RARA-STIMULATION->CCNA2",
+              "TP53-STIMULATION->GADD45G",
+              "RAC1-STIMULATION->MAPK9",
+              "CDKN1A-INHIBITION->CCND1",
+              "HEYL-STIMULATION->NFKB2",
+              "HSP90B1-proteincomplexformation->AR",
+              "PML-STIMULATION->CCNA2",
+              "MECOM-STIMULATION->CTBP2",
+              "FGFR1-STIMULATION->PIK3R1",
+              "CCNE2-proteincomplexformation->CDK2",
+              "EGFR-STIMULATION->PIK3CB",
+              "EGFR-STIMULATION->PIK3CA",
+              "SKP2-INHIBITION->CDKN1B",
+              "HES5-STIMULATION->ERBB2",
+              "TGFA-STIMULATION->EGFR",
+              "NRAS-STIMULATION->PIK3R1",
+              "RARA-INHIBITION->DUSP6",
+              "HDAC1-proteincomplexformation->CTBP2",
+              "CTNNB1-STIMULATION->TCF7",
+              "NRAS-STIMULATION->RAF1",
+              "HEYL-STIMULATION->CDKN1A",
+              "CTNNB1-INHIBITION->EP300",
+              "PIK3R1-STIMULATION->AKT1",
+              "SMAD2-STIMULATION->CDKN2B",
+              "MYC-STIMULATION->CKS2",
+              "HEYL-STIMULATION->ERBB2",
+              "INSRR-STIMULATION->PIK3CD",
+              "NFE2L2-STIMULATION->HMOX1",
+              "GRB2-STIMULATION->SOS2",
+              "GRB2-STIMULATION->SOS1",
+              "TCF7L1-STIMULATION->CCND1",
+              "TP53-STIMULATION->POLK",
+              "HES5-STIMULATION->NFKB2",
+              "KRAS-STIMULATION->RALGDS",
+              "KRAS-STIMULATION->RAF1",
+              "KRAS-STIMULATION->PIK3CB",
+              "NFKB1-STIMULATION->BCL2",
+              "ABL1-STIMULATION->STAT5A",
+              "KRAS-STIMULATION->PIK3CD",
+              "EML4-STIMULATION->JAK3",
+              "CTBP2-proteincomplexformation->HDAC1",
+              "PGR-STIMULATION->TNFSF11",
+              "RALBP1-INHIBITION->RAC1",
+              "EGF-STIMULATION->EGFR",
+              "GAB1-STIMULATION->PIK3CA",
+              "TP53-STIMULATION->BAK1",
+              "AKT2-STIMULATION->BCL2L1",
+              "FGF20-STIMULATION->FGFR2",
+              "RARA-STIMULATION->JUP",
+              "KEAP1-INHIBITION->NFE2L2",
+              "CRKL-STIMULATION->RAPGEF1",
+              "FGF5-STIMULATION->PDGFRA",
+              "MAPK3-STIMULATION->CCND1",
+              "GLI1-STIMULATION->HHIP",
+              "TP53-STIMULATION->BAX",
+              "SOS2-STIMULATION->HRAS",
+              "FGFR2-STIMULATION->GAB1",
+              "WNT9A-STIMULATION->FZD8",
+              "FLT3-STIMULATION->PIK3R1",
+              "NFKB1-STIMULATION->CCND1",
+              "CTNNB1-STIMULATION->LEF1",
+              "HIF1A-STIMULATION->TGFB1",
+              "NFKB1-STIMULATION->NOS2",
+              "MAX-INHIBITION->ZBTB17",
+              "STAT5A-STIMULATION->BCL2L1",
+              "CRK-proteincomplexformation->CBL",
+              "STAT3-STIMULATION->VEGFA",
+              "MAPK3-STIMULATION->CDK4",
+              "TCF7-STIMULATION->MYC",
+              "NOTCH3-STIMULATION->HES5",
+              "GAB2-STIMULATION->PTPN11",
+              "HIF1A-STIMULATION->VEGFA",
+              "GLI1-STIMULATION->WNT9A",
+              "CDX2-STIMULATION->REG4",
+              "PDGFRA-STIMULATION->KRAS",
+              "CASP3-STIMULATION->DCC",
+              "KRAS-STIMULATION->PIK3R1",
+              "NRAS-STIMULATION->BRAF",
+              "RALB-STIMULATION->RALBP1",
+              "KRAS-STIMULATION->PIK3R3",
+              "NFKB1-STIMULATION->VEGFA",
+              "RUNX1-STIMULATION->HDAC1",
+              "LAMA5-STIMULATION->ITGB1",
+              "PRKCB-STIMULATION->ELK1",
+              "JUP-STIMULATION->CCND1",
+              "MYC-proteincomplexformation->MAX",
+              "HES5-STIMULATION->CCND1",
+              "ZBTB17-STIMULATION->CDKN2B",
+              "FGFR2-STIMULATION->GRB2",
+              "MECOM-STIMULATION->HDAC1",
+              "BCL2L11-INHIBITION->BCL2",
+              "EGFR-STIMULATION->GRB2",
+              "SHC3-STIMULATION->GRB2",
+              "RAC1-STIMULATION->PAK3",
+              "GSK3B-INHIBITION->CTNNB1",
+              "MDM2-INHIBITION->TP53",
+              "LAMA5-STIMULATION->ITGA2",
+              "SOS2-STIMULATION->NRAS",
+              "RUNX1T1-INHIBITION->SPI1",
+              "HIF1A-STIMULATION->SLC2A1",
+              "IGF1R-STIMULATION->SHC1",
+              "AKT2-INHIBITION->BAD",
+              "IGF1R-STIMULATION->SHC3",
+              "CDKN1B-INHIBITION->CCNE2",
+              "AKT1-STIMULATION->MTOR",
+              "WNT8B-STIMULATION->FZD7",
+              "LEF1-STIMULATION->BIRC5",
+              "DLL4-STIMULATION->NOTCH3",
+              "PML-INHIBITION->BCL2A1",
+              "CCND1-proteincomplexformation->CDK4",
+              "PRKCG-STIMULATION->RAF1",
+              "CBL-proteincomplexformation->CRK",
+              "ERBB2-STIMULATION->PIK3CA",
+              "PTK2-STIMULATION->PIK3R3",
+              "BAX-INHIBITION->BCL2",
+              "MET-STIMULATION->GAB1",
+              "BAD-INHIBITION->BCL2L1",
+              "HES5-STIMULATION->CDKN1A",
+              "KIT-STIMULATION->GRB2",
+              "RUNX1T1-STIMULATION->JUP",
+              "FOS-STIMULATION->CCND1",
+              "NFKB1-STIMULATION->TRAF1",
+              "PIK3CD-STIMULATION->PDPK1",
+              "TP53-STIMULATION->CDKN1A",
+              "JUP-STIMULATION->MYC",
+              "NOTCH3-STIMULATION->FLT4",
+              "ERBB2-STIMULATION->GRB2",
+              "BBC3-INHIBITION->BCL2",
+              "PML-STIMULATION->JUP",
+              "EGFR-STIMULATION->JAK1",
+              "RALB-STIMULATION->PLD2",
+              "HRAS-STIMULATION->RAF1",
+              "TGFA-STIMULATION->INSRR",
+              "SHH-INHIBITION->PTCH1",
+              "SOS1-STIMULATION->NRAS",
+              "HIF1A-STIMULATION->TGFA",
+              "KRAS-STIMULATION->RASSF1",
+              "MTOR-STIMULATION->RPS6KB2",
+              "MTOR-STIMULATION->RPS6KB1",
+              "TP53-INHIBITION->BCL2",
+              "CDKN2B-INHIBITION->CDK4",
+              "WNT5B-STIMULATION->FZD7",
+              "HSP90B1-STIMULATION->AR",
+              "CDK4-proteincomplexformation->CCND1",
+              "RUNX1-STIMULATION->CTBP2",
+              "SMO-STIMULATION->SUFU",
+              "IGF1R-STIMULATION->PIK3R1",
+              "PDGFRB-STIMULATION->PIK3R1",
+              "HEYL-STIMULATION->MYC",
+              "SMAD2-STIMULATION->CDKN1A",
+              "MAX-STIMULATION->CKS2",
+              "GAB1-STIMULATION->PIK3R2",
+              "TGFB1-STIMULATION->TGFBR2",
+              "PIK3CD-STIMULATION->AKT2",
+              "CDC42-STIMULATION->PAK3",
+              "RAPGEF1-STIMULATION->RAP1B",
+              "TGFB1-STIMULATION->TGFBR1",
+              "EGLN2-STIMULATION->HIF1A",
+              "CKS2-STIMULATION->SKP2",
+              "LEF1-STIMULATION->CCND1",
+              "GAB2-STIMULATION->PIK3R3",
+              "GAB1-STIMULATION->CRKL",
+              "CALM1-STIMULATION->CAMK4",
+              "MET-STIMULATION->GRB2",
+              "CDKN1A-INHIBITION->CDK4"
+            ]
+          }
+        }
+      ],
+      "wasDerivedFrom": [
+        {
+          "provenance": [
+            {
+              "69a92ea6-7d1e-4cac-a65f-b8afa2380e97": {
+                "download_file_69a92ea6-7d1e-4cac-a65f-b8afa2380e97_url": "https://api.gdc.cancer.gov/data/69a92ea6-7d1e-4cac-a65f-b8afa2380e97",
+                "project_cptac3_url": "https://api.gdc.cancer.gov/projects/CPTAC-3?expand=summary,summary.experimental_strategies,summary.data_categories&pretty=false",
+                "download_file_69a92ea6-7d1e-4cac-a65f-b8afa2380e97_Content-MD5": "1a94e07b777f946a794be856bc810e9f",
+                "project_cptac3": {
+                  "data": {
+                    "primary_site": [
+                      "Pancreas",
+                      "Brain",
+                      "Other and ill-defined sites",
+                      "Kidney",
+                      "Bronchus and lung",
+                      "Uterus, NOS"
+                    ],
+                    "dbgap_accession_number": "phs001287",
+                    "disease_type": [
+                      "Gliomas",
+                      "Squamous Cell Neoplasms",
+                      "Adenomas and Adenocarcinomas",
+                      "Not Applicable",
+                      "Ductal and Lobular Neoplasms"
+                    ],
+                    "project_id": "CPTAC-3",
+                    "name": "CPTAC-Brain, Head and Neck, Kidney, Lung, Pancreas, Uterus",
+                    "releasable": true,
+                    "state": "open",
+                    "released": true
+                  },
+                  "warnings": {}
+                },
+                "download_file_69a92ea6-7d1e-4cac-a65f-b8afa2380e97_filename": "seurat.deg.tsv",
+                "download_file_69a92ea6-7d1e-4cac-a65f-b8afa2380e97_Date": "Tue, 18 Oct 2022 09:07:20 GMT",
+                "file_uuids": [
+                  "69a92ea6-7d1e-4cac-a65f-b8afa2380e97"
+                ],
+                "download_file_69a92ea6-7d1e-4cac-a65f-b8afa2380e97_Content-Length": "320113",
+                "status_url": "https://api.gdc.cancer.gov/status",
+                "status": {
+                  "data_release": "Data Release 35.0 - September 28, 2022",
+                  "commit": "4dd3680528a19ed33cfc83c7d049426c97bb903b",
+                  "tag": "3.0.0",
+                  "version": 1,
+                  "status": "OK"
+                }
+              }
+            },
+            {
+              "data_preprocessing": {
+                "input_file": "data/tcga/69a92ea6-7d1e-4cac-a65f-b8afa2380e97.tsv",
+                "score_column": "avg_log2FC",
+                "match_id": "name",
+                "version": 1.0,
+                "script": "TCGA_Data_Preprocessing.py"
+              }
+            }
+          ],
+          "type": "Network",
+          "contents": {
+            "uuid": "346a14e7-44c8-45c1-ab4e-9ce48fd8e668",
+            "UUID": "346a14e7-44c8-45c1-ab4e-9ce48fd8e668",
+            "name": "DeRegNet_Raw_Data_69a92ea6-7d1e-4cac-a65f-b8afa2380e97",
+            "organismCode": "hsa",
+            "numberOfNodes": 197,
+            "numberOfRelations": 279,
+            "numberOfReactions": 0,
+            "nodeTypes": [
+              "polypeptide chain"
+            ],
+            "relationTypes": [
+              "STIMULATION",
+              "INHIBITION",
+              "PROTEINCOMPLEXFORMATION"
+            ],
+            "networkMappingType": "SIGNALLING"
+          },
+          "wasAttributedTo": {
+            "name": "deregnet",
+            "type": "User"
+          },
+          "wasGeneratedBy": [
+            {
+              "name": "SIGNALLING_cancer_types-addCsvAnnotation->DeRegNet_Raw_Data_69a92ea6-7d1e-4cac-a65f-b8afa2380e97",
+              "type": "addCsvAnnotation",
+              "operation": "POST",
+              "endpoint": "/networks/6194654b-f0ef-465e-b81a-9d32d5bd9f49/csv",
+              "params": [
+                {
+                  "parameter": "prefixName",
+                  "value": "false"
+                },
+                {
+                  "parameter": "networkname",
+                  "value": "DeRegNet_Raw_Data_69a92ea6-7d1e-4cac-a65f-b8afa2380e97"
+                },
+                {
+                  "parameter": "UUID",
+                  "value": "6194654b-f0ef-465e-b81a-9d32d5bd9f49"
+                },
+                {
+                  "parameter": "type",
+                  "value": "69a92ea6-7d1e-4cac-a65f-b8afa2380e97"
+                },
+                {
+                  "parameter": "user",
+                  "value": "deregnet"
+                },
+                {
+                  "parameter": "derive",
+                  "value": "true"
+                }
+              ]
+            }
+          ],
+          "wasDerivedFrom": [
+            {
+              "type": "Network",
+              "contents": {
+                "uuid": "6194654b-f0ef-465e-b81a-9d32d5bd9f49",
+                "UUID": "6194654b-f0ef-465e-b81a-9d32d5bd9f49",
+                "name": "SIGNALLING_cancer_types",
+                "organismCode": "hsa",
+                "numberOfNodes": 197,
+                "numberOfRelations": 279,
+                "numberOfReactions": 0,
+                "nodeTypes": [
+                  "polypeptide chain"
+                ],
+                "relationTypes": [
+                  "STIMULATION",
+                  "INHIBITION",
+                  "PROTEINCOMPLEXFORMATION"
+                ],
+                "networkMappingType": "SIGNALLING"
+              },
+              "wasAttributedTo": {
+                "name": "sbml4j",
+                "type": "User"
+              },
+              "wasGeneratedBy": [
+                {
+                  "name": "Create_SIGNALLING_cancer_types",
+                  "type": "createMapping",
+                  "operation": "POST",
+                  "endpoint": "/mapping/fa911939-6aff-4fde-a7fd-c1e2705cbe77",
+                  "params": [
+                    {
+                      "parameter": "mappingType",
+                      "value": "SIGNALLING"
+                    },
+                    {
+                      "parameter": "prefixName",
+                      "value": "false"
+                    },
+                    {
+                      "parameter": "suffixName",
+                      "value": "false"
+                    },
+                    {
+                      "parameter": "networkname",
+                      "value": "SIGNALLING_cancer_types"
+                    },
+                    {
+                      "parameter": "UUID",
+                      "value": "fa911939-6aff-4fde-a7fd-c1e2705cbe77"
+                    },
+                    {
+                      "parameter": "user",
+                      "value": "sbml4j"
+                    }
+                  ]
+                }
+              ],
+              "wasDerivedFrom": [
+                {
+                  "type": "Pathway",
+                  "contents": {
+                    "uuid": "fa911939-6aff-4fde-a7fd-c1e2705cbe77",
+                    "UUID": "fa911939-6aff-4fde-a7fd-c1e2705cbe77",
+                    "name": "Collection pathway containing all cancer type specific pathways",
+                    "pathwayId": "cancer_types",
+                    "organismCode": "hsa",
+                    "numberOfNodes": 836,
+                    "numberOfTransitions": 1416,
+                    "numberOfReactions": 0,
+                    "nodeTypes": [
+                      "polypeptide chain",
+                      "non-covalent complex",
+                      "simple chemical"
+                    ],
+                    "transitionTypes": [
+                      "stimulation",
+                      "uncertain process",
+                      "inhibition",
+                      "phosphorylation",
+                      "non-covalent binding",
+                      "molecular interaction",
+                      "dissociation",
+                      "unknownFromSource",
+                      "dephosphorylation"
+                    ],
+                    "compartments": [
+                      "default"
+                    ]
+                  },
+                  "wasAttributedTo": {
+                    "name": "sbml4j",
+                    "type": "User"
+                  },
+                  "wasGeneratedBy": [
+                    {
+                      "name": "Create_PathwayCollection_for_3734df16_ab97bd7e_7524c678_6a232d3a_cb1199e6_6181fa25_df64e8b3_70224b7e_0253ffac_1fb39670_1e2e174c_34b46434_95c13a9f_ddca2875_fd1fe32a_66e3062c_317194b7",
+                      "type": "createPathwayCollection",
+                      "operation": "POST",
+                      "endpoint": "/pathwayCollection",
+                      "body": {
+                        "name": "cancer_types",
+                        "description": "Collection pathway containing all cancer type specific pathways",
+                        "sourcePathwayUUIDs": [
+                          "3734df16-7138-45a1-8b33-35adf2c5bd54",
+                          "ab97bd7e-a1b1-421a-bb8f-034b97dc3247",
+                          "7524c678-75cc-428d-a12c-f041b4a88339",
+                          "6a232d3a-9522-4101-80c2-5a9eb09b2d63",
+                          "cb1199e6-7573-472d-91b3-59fe0087a761",
+                          "6181fa25-d804-42d5-8397-49fed001e975",
+                          "df64e8b3-a1f6-4a31-a570-c1dc0f417a29",
+                          "70224b7e-9c5e-4d15-a9ea-4add945ce737",
+                          "0253ffac-463b-4dbb-9624-08a9f05c0be5",
+                          "1fb39670-df20-4676-9c33-71d12f12711a",
+                          "1e2e174c-cfbc-4abc-bec6-033f5c09fb7c",
+                          "34b46434-cdf9-4e7e-ae0b-97ca0cc85945",
+                          "95c13a9f-f450-4e5f-90e1-6157b2dcf3b6",
+                          "ddca2875-fc34-4744-82f9-e4830e9a09a3",
+                          "fd1fe32a-e901-4fba-ac84-275243ac6ea9",
+                          "66e3062c-eb79-4fae-b79a-908d63bbf554",
+                          "317194b7-ef3f-4a76-8f7e-ee487c99b811"
+                        ]
+                      }
+                    }
+                  ],
+                  "wasDerivedFrom": [
+                    {
+                      "type": "PathwayCollection",
+                      "contents": {
+                        "name": "PCN_of_cancer_types",
+                        "description": "PathwayCollectionNode of collection: Collection pathway containing all cancer type specific pathways",
+                        "hadMember": [
+                          "317194b7-ef3f-4a76-8f7e-ee487c99b811",
+                          "66e3062c-eb79-4fae-b79a-908d63bbf554",
+                          "fd1fe32a-e901-4fba-ac84-275243ac6ea9",
+                          "ddca2875-fc34-4744-82f9-e4830e9a09a3",
+                          "95c13a9f-f450-4e5f-90e1-6157b2dcf3b6",
+                          "34b46434-cdf9-4e7e-ae0b-97ca0cc85945",
+                          "1e2e174c-cfbc-4abc-bec6-033f5c09fb7c",
+                          "1fb39670-df20-4676-9c33-71d12f12711a",
+                          "0253ffac-463b-4dbb-9624-08a9f05c0be5",
+                          "70224b7e-9c5e-4d15-a9ea-4add945ce737",
+                          "df64e8b3-a1f6-4a31-a570-c1dc0f417a29",
+                          "6181fa25-d804-42d5-8397-49fed001e975",
+                          "cb1199e6-7573-472d-91b3-59fe0087a761",
+                          "6a232d3a-9522-4101-80c2-5a9eb09b2d63",
+                          "7524c678-75cc-428d-a12c-f041b4a88339",
+                          "ab97bd7e-a1b1-421a-bb8f-034b97dc3247",
+                          "3734df16-7138-45a1-8b33-35adf2c5bd54"
+                        ]
+                      },
+                      "wasAttributedTo": {
+                        "name": "sbml4j",
+                        "type": "User"
+                      },
+                      "wasGeneratedBy": [
+                        {
+                          "name": "Create_PathwayCollection_for_3734df16_ab97bd7e_7524c678_6a232d3a_cb1199e6_6181fa25_df64e8b3_70224b7e_0253ffac_1fb39670_1e2e174c_34b46434_95c13a9f_ddca2875_fd1fe32a_66e3062c_317194b7",
+                          "type": "createPathwayCollection",
+                          "operation": "POST",
+                          "endpoint": "/pathwayCollection",
+                          "body": {
+                            "name": "cancer_types",
+                            "description": "Collection pathway containing all cancer type specific pathways",
+                            "sourcePathwayUUIDs": [
+                              "3734df16-7138-45a1-8b33-35adf2c5bd54",
+                              "ab97bd7e-a1b1-421a-bb8f-034b97dc3247",
+                              "7524c678-75cc-428d-a12c-f041b4a88339",
+                              "6a232d3a-9522-4101-80c2-5a9eb09b2d63",
+                              "cb1199e6-7573-472d-91b3-59fe0087a761",
+                              "6181fa25-d804-42d5-8397-49fed001e975",
+                              "df64e8b3-a1f6-4a31-a570-c1dc0f417a29",
+                              "70224b7e-9c5e-4d15-a9ea-4add945ce737",
+                              "0253ffac-463b-4dbb-9624-08a9f05c0be5",
+                              "1fb39670-df20-4676-9c33-71d12f12711a",
+                              "1e2e174c-cfbc-4abc-bec6-033f5c09fb7c",
+                              "34b46434-cdf9-4e7e-ae0b-97ca0cc85945",
+                              "95c13a9f-f450-4e5f-90e1-6157b2dcf3b6",
+                              "ddca2875-fc34-4744-82f9-e4830e9a09a3",
+                              "fd1fe32a-e901-4fba-ac84-275243ac6ea9",
+                              "66e3062c-eb79-4fae-b79a-908d63bbf554",
+                              "317194b7-ef3f-4a76-8f7e-ee487c99b811"
+                            ]
+                          }
+                        }
+                      ],
+                      "wasDerivedFrom": [
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "317194b7-ef3f-4a76-8f7e-ee487c99b811",
+                            "UUID": "317194b7-ef3f-4a76-8f7e-ee487c99b811",
+                            "name": "Gastric cancer",
+                            "pathwayId": "path_hsa05226",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 77,
+                            "numberOfTransitions": 124,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical",
+                              "non-covalent complex"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "uncertain process",
+                              "inhibition",
+                              "non-covalent binding",
+                              "phosphorylation",
+                              "dissociation",
+                              "molecular interaction"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05226.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05226.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:46 +0000 (UTC)",
+                                    "Creation date": "Apr 11, 2018 17:06:20 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05226.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05226.sbml.xml",
+                                "md5sum": "F4D464044705FAA389DD303C5885D771",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05226.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05226.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "66e3062c-eb79-4fae-b79a-908d63bbf554",
+                            "UUID": "66e3062c-eb79-4fae-b79a-908d63bbf554",
+                            "name": "Hepatocellular carcinoma",
+                            "pathwayId": "path_hsa05225",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 96,
+                            "numberOfTransitions": 134,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "inhibition",
+                              "phosphorylation",
+                              "stimulation",
+                              "uncertain process",
+                              "non-covalent binding",
+                              "dissociation",
+                              "molecular interaction"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05225.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05225.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:45 +0000 (UTC)",
+                                    "Creation date": "Oct 8, 2021 09:30:46 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05225.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05225.sbml.xml",
+                                "md5sum": "3EFC377E58CA29313E8981F3D4B87529",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05225.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05225.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "fd1fe32a-e901-4fba-ac84-275243ac6ea9",
+                            "UUID": "fd1fe32a-e901-4fba-ac84-275243ac6ea9",
+                            "name": "Breast cancer",
+                            "pathwayId": "path_hsa05224",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 66,
+                            "numberOfTransitions": 136,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical",
+                              "non-covalent complex"
+                            ],
+                            "transitionTypes": [
+                              "non-covalent binding",
+                              "stimulation",
+                              "phosphorylation",
+                              "uncertain process",
+                              "molecular interaction",
+                              "inhibition",
+                              "dephosphorylation",
+                              "dissociation"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05224.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05224.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:54 +0000 (UTC)",
+                                    "Creation date": "Apr 11, 2018 17:05:28 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05224.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05224.sbml.xml",
+                                "md5sum": "BADFE8FA3C2941438405EB2C9D8ED9B4",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05224.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05224.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "ddca2875-fc34-4744-82f9-e4830e9a09a3",
+                            "UUID": "ddca2875-fc34-4744-82f9-e4830e9a09a3",
+                            "name": "Non-small cell lung cancer",
+                            "pathwayId": "path_hsa05223",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 52,
+                            "numberOfTransitions": 106,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "unknownFromSource",
+                              "stimulation",
+                              "uncertain process",
+                              "phosphorylation",
+                              "non-covalent binding",
+                              "molecular interaction",
+                              "dissociation"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05223.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05223.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:56 +0000 (UTC)",
+                                    "Creation date": "Sep 24, 2020 18:30:30 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05223.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05223.sbml.xml",
+                                "md5sum": "2C931E045CFE65E0619B71BC5CD3043B",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05223.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05223.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "95c13a9f-f450-4e5f-90e1-6157b2dcf3b6",
+                            "UUID": "95c13a9f-f450-4e5f-90e1-6157b2dcf3b6",
+                            "name": "Small cell lung cancer",
+                            "pathwayId": "path_hsa05222",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 50,
+                            "numberOfTransitions": 72,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "unknownFromSource",
+                              "inhibition",
+                              "dissociation",
+                              "uncertain process",
+                              "phosphorylation"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05222.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05222.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:55 +0000 (UTC)",
+                                    "Creation date": "Jul 24, 2017 13:17:58 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05222.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05222.sbml.xml",
+                                "md5sum": "08075ACD6BF8C6505B18BE42388661BF",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05222.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05222.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "34b46434-cdf9-4e7e-ae0b-97ca0cc85945",
+                            "UUID": "34b46434-cdf9-4e7e-ae0b-97ca0cc85945",
+                            "name": "Acute myeloid leukemia",
+                            "pathwayId": "path_hsa05221",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 45,
+                            "numberOfTransitions": 106,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "inhibition",
+                              "uncertain process",
+                              "stimulation",
+                              "molecular interaction",
+                              "phosphorylation",
+                              "unknownFromSource",
+                              "non-covalent binding"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05221.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05221.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:48 +0000 (UTC)",
+                                    "Creation date": "Sep 19, 2019 17:30:14 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05221.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05221.sbml.xml",
+                                "md5sum": "62B8D8821E02F13A09AB38F188803463",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05221.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05221.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "1e2e174c-cfbc-4abc-bec6-033f5c09fb7c",
+                            "UUID": "1e2e174c-cfbc-4abc-bec6-033f5c09fb7c",
+                            "name": "Chronic myeloid leukemia",
+                            "pathwayId": "path_hsa05220",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 49,
+                            "numberOfTransitions": 82,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "inhibition",
+                              "phosphorylation",
+                              "uncertain process",
+                              "dissociation",
+                              "non-covalent binding",
+                              "unknownFromSource",
+                              "molecular interaction"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05220.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05220.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:48 +0000 (UTC)",
+                                    "Creation date": "Aug 23, 2019 14:55:31 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05220.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05220.sbml.xml",
+                                "md5sum": "9640629DDEEE4541086093A3563ACB46",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05220.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05220.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "1fb39670-df20-4676-9c33-71d12f12711a",
+                            "UUID": "1fb39670-df20-4676-9c33-71d12f12711a",
+                            "name": "Bladder cancer",
+                            "pathwayId": "path_hsa05219",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 32,
+                            "numberOfTransitions": 32,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex"
+                            ],
+                            "transitionTypes": [
+                              "molecular interaction",
+                              "phosphorylation",
+                              "uncertain process",
+                              "stimulation",
+                              "inhibition",
+                              "dissociation"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05219.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05219.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:52 +0000 (UTC)",
+                                    "Creation date": "Aug 7, 2015 10:44:35 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05219.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05219.sbml.xml",
+                                "md5sum": "76208C653FA39BEFEA051A36A242AF49",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05219.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05219.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "0253ffac-463b-4dbb-9624-08a9f05c0be5",
+                            "UUID": "0253ffac-463b-4dbb-9624-08a9f05c0be5",
+                            "name": "Melanoma",
+                            "pathwayId": "path_hsa05218",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 30,
+                            "numberOfTransitions": 54,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "inhibition",
+                              "stimulation",
+                              "phosphorylation",
+                              "uncertain process",
+                              "dissociation"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05218.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05218.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:50 +0000 (UTC)",
+                                    "Creation date": "Nov 5, 2018 16:12:42 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05218.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05218.sbml.xml",
+                                "md5sum": "8080EA2FAAA90320F462BE6076AA8CF9",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05218.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05218.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "70224b7e-9c5e-4d15-a9ea-4add945ce737",
+                            "UUID": "70224b7e-9c5e-4d15-a9ea-4add945ce737",
+                            "name": "Basal cell carcinoma",
+                            "pathwayId": "path_hsa05217",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 26,
+                            "numberOfTransitions": 40,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "uncertain process",
+                              "inhibition",
+                              "non-covalent binding"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05217.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05217.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:49 +0000 (UTC)",
+                                    "Creation date": "Jul 25, 2017 13:19:29 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05217.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05217.sbml.xml",
+                                "md5sum": "283757F60FC86FAE160CEE9E7E88750D",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05217.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05217.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "df64e8b3-a1f6-4a31-a570-c1dc0f417a29",
+                            "UUID": "df64e8b3-a1f6-4a31-a570-c1dc0f417a29",
+                            "name": "Thyroid cancer",
+                            "pathwayId": "path_hsa05216",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 21,
+                            "numberOfTransitions": 32,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain"
+                            ],
+                            "transitionTypes": [
+                              "molecular interaction",
+                              "uncertain process",
+                              "stimulation",
+                              "dissociation",
+                              "phosphorylation",
+                              "non-covalent binding"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05216.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05216.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:47 +0000 (UTC)",
+                                    "Creation date": "Jul 25, 2017 13:48:22 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05216.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05216.sbml.xml",
+                                "md5sum": "D44B9471FB58DB8A5CDD5FE9B0A8F32F",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05216.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05216.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "6181fa25-d804-42d5-8397-49fed001e975",
+                            "UUID": "6181fa25-d804-42d5-8397-49fed001e975",
+                            "name": "Prostate cancer",
+                            "pathwayId": "path_hsa05215",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 58,
+                            "numberOfTransitions": 86,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical",
+                              "non-covalent complex"
+                            ],
+                            "transitionTypes": [
+                              "phosphorylation",
+                              "stimulation",
+                              "uncertain process",
+                              "molecular interaction",
+                              "dissociation",
+                              "inhibition"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05215.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05215.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:52 +0000 (UTC)",
+                                    "Creation date": "May 17, 2021 14:07:45 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05215.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05215.sbml.xml",
+                                "md5sum": "3A987FBC94DD00A77AE1704C5B67CCBF",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05215.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05215.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "cb1199e6-7573-472d-91b3-59fe0087a761",
+                            "UUID": "cb1199e6-7573-472d-91b3-59fe0087a761",
+                            "name": "Glioma",
+                            "pathwayId": "path_hsa05214",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 41,
+                            "numberOfTransitions": 94,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "non-covalent complex",
+                              "polypeptide chain",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "uncertain process",
+                              "phosphorylation",
+                              "inhibition",
+                              "dissociation",
+                              "molecular interaction"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05214.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05214.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:46 +0000 (UTC)",
+                                    "Creation date": "Dec 25, 2018 15:41:19 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05214.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05214.sbml.xml",
+                                "md5sum": "C3B6A50CA30FC699B529235965486725",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05214.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05214.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "6a232d3a-9522-4101-80c2-5a9eb09b2d63",
+                            "UUID": "6a232d3a-9522-4101-80c2-5a9eb09b2d63",
+                            "name": "Endometrial cancer",
+                            "pathwayId": "path_hsa05213",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 38,
+                            "numberOfTransitions": 56,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical",
+                              "non-covalent complex"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "phosphorylation",
+                              "uncertain process",
+                              "unknownFromSource"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05213.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05213.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:53 +0000 (UTC)",
+                                    "Creation date": "Aug 17, 2020 15:46:01 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05213.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05213.sbml.xml",
+                                "md5sum": "F65C5EEE84A26AD2B162A4C6141B5B60",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05213.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05213.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "7524c678-75cc-428d-a12c-f041b4a88339",
+                            "UUID": "7524c678-75cc-428d-a12c-f041b4a88339",
+                            "name": "Pancreatic cancer",
+                            "pathwayId": "path_hsa05212",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 53,
+                            "numberOfTransitions": 102,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "stimulation",
+                              "uncertain process",
+                              "phosphorylation",
+                              "non-covalent binding",
+                              "dissociation",
+                              "molecular interaction",
+                              "inhibition"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05212.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05212.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:44 +0000 (UTC)",
+                                    "Creation date": "Oct 10, 2019 11:08:38 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05212.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05212.sbml.xml",
+                                "md5sum": "2874F3F7B0F3B502D5BEDDF0A2DCE944",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05212.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05212.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "ab97bd7e-a1b1-421a-bb8f-034b97dc3247",
+                            "UUID": "ab97bd7e-a1b1-421a-bb8f-034b97dc3247",
+                            "name": "Renal cell carcinoma",
+                            "pathwayId": "path_hsa05211",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 43,
+                            "numberOfTransitions": 56,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "phosphorylation",
+                              "inhibition",
+                              "stimulation",
+                              "non-covalent binding",
+                              "molecular interaction"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05211.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05211.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:51 +0000 (UTC)",
+                                    "Creation date": "Mar 16, 2018 15:09:01 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05211.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05211.sbml.xml",
+                                "md5sum": "8E98D12929479AB8DDD88BDC0BAA7AD9",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05211.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05211.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "Pathway",
+                          "contents": {
+                            "uuid": "3734df16-7138-45a1-8b33-35adf2c5bd54",
+                            "UUID": "3734df16-7138-45a1-8b33-35adf2c5bd54",
+                            "name": "Colorectal cancer",
+                            "pathwayId": "path_hsa05210",
+                            "organismCode": "hsa",
+                            "numberOfNodes": 59,
+                            "numberOfTransitions": 104,
+                            "numberOfReactions": 0,
+                            "nodeTypes": [
+                              "polypeptide chain",
+                              "non-covalent complex",
+                              "simple chemical"
+                            ],
+                            "transitionTypes": [
+                              "phosphorylation",
+                              "stimulation",
+                              "molecular interaction",
+                              "inhibition",
+                              "uncertain process",
+                              "non-covalent binding"
+                            ],
+                            "compartments": [
+                              "default"
+                            ]
+                          },
+                          "wasAttributedTo": {
+                            "name": "sbml4j",
+                            "type": "User"
+                          },
+                          "wasGeneratedBy": [
+                            {
+                              "name": "hsa05210.sbml.xml",
+                              "type": "persistFile",
+                              "operation": "POST",
+                              "endpoint": "/sbml",
+                              "params": [
+                                {
+                                  "parameter": "organism",
+                                  "value": "hsa"
+                                },
+                                {
+                                  "parameter": "files",
+                                  "value": "hsa05210.sbml.xml"
+                                },
+                                {
+                                  "parameter": "source",
+                                  "value": "KEGG"
+                                },
+                                {
+                                  "parameter": "user",
+                                  "value": "sbml4j"
+                                },
+                                {
+                                  "parameter": "version",
+                                  "value": "104.0"
+                                }
+                              ]
+                            }
+                          ],
+                          "wasDerivedFrom": [
+                            {
+                              "provenance": [
+                                {
+                                  "origin": {
+                                    "Download date": "Oct 10, 2022 18:55:43 +0000 (UTC)",
+                                    "Creation date": "Feb 19, 2018 11:35:09 +0900 (GMT+9)",
+                                    "Original Filename": "hsa05210.xml"
+                                  }
+                                },
+                                {
+                                  "transformation": {
+                                    "keggtranslator.json": {
+                                      "name": "KEGGtranslator",
+                                      "arguments": {
+                                        "gene-names": "FIRST_NAME",
+                                        "format": "SBML_CORE_AND_QUAL",
+                                        "add-layout-extension": "FALSE",
+                                        "use-groups-extension": "FALSE",
+                                        "remove-pathway-references": "TRUE",
+                                        "remove-white-gene-nodes": "TRUE",
+                                        "autocomplete-reactions": "TRUE"
+                                      },
+                                      "version": "2.5"
+                                    }
+                                  }
+                                }
+                              ],
+                              "type": "File",
+                              "contents": {
+                                "filename": "hsa05210.sbml.xml",
+                                "md5sum": "A84C1483F1D7AFB55E9630BC783D3C26",
+                                "fileNodeType": "SBML"
+                              },
+                              "wasAttributedTo": {
+                                "name": "sbml4j",
+                                "type": "User"
+                              },
+                              "wasGeneratedBy": [
+                                {
+                                  "name": "hsa05210.sbml.xml",
+                                  "type": "persistFile",
+                                  "operation": "POST",
+                                  "endpoint": "/sbml",
+                                  "params": [
+                                    {
+                                      "parameter": "organism",
+                                      "value": "hsa"
+                                    },
+                                    {
+                                      "parameter": "files",
+                                      "value": "hsa05210.sbml.xml"
+                                    },
+                                    {
+                                      "parameter": "source",
+                                      "value": "KEGG"
+                                    },
+                                    {
+                                      "parameter": "user",
+                                      "value": "sbml4j"
+                                    },
+                                    {
+                                      "parameter": "version",
+                                      "value": "104.0"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "wasDerivedFrom": [
+                                {
+                                  "type": "Database",
+                                  "contents": {
+                                    "source": "KEGG",
+                                    "version": "104.0"
+                                  },
+                                  "wasAttributedTo": {
+                                    "name": "sbml4j",
+                                    "type": "User"
+                                  },
+                                  "wasGeneratedBy": [
+                                    {
+                                      "name": "hsa05210.sbml.xml",
+                                      "type": "persistFile",
+                                      "operation": "POST",
+                                      "endpoint": "/sbml",
+                                      "params": [
+                                        {
+                                          "parameter": "organism",
+                                          "value": "hsa"
+                                        },
+                                        {
+                                          "parameter": "files",
+                                          "value": "hsa05210.sbml.xml"
+                                        },
+                                        {
+                                          "parameter": "source",
+                                          "value": "KEGG"
+                                        },
+                                        {
+                                          "parameter": "user",
+                                          "value": "sbml4j"
+                                        },
+                                        {
+                                          "parameter": "version",
+                                          "value": "104.0"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
