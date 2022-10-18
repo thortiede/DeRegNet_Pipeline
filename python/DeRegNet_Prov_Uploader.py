@@ -11,8 +11,7 @@ from pysbml4j import Sbml4j, Configuration
 
 def get_network_uuid(path):
     with open(os.path.join(path, "optimal_uuid"), "r") as f:
-        uuid = f.read()
-        
+        uuid = f.read()    
     return uuid
 
 
@@ -22,7 +21,6 @@ def write_simple_file(file_path, file_content):
         
 
 def get_provenance(sbml4j:Sbml4j, uuid:str):
-    
     provenance_json_string = sbml4j.getProvenance(uuid, "deregnet")
     return provenance_json_string
 
@@ -50,5 +48,4 @@ def main(result_path):
 if __name__ == "__main__":
     
     result_path = "result"
-    
     main(result_path)
